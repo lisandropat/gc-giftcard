@@ -30,6 +30,8 @@ body {
     }
 }
 
+@page { size: auto;  margin: 0mm; }
+
 @media print {
     body { padding: 0; }
     .no-print, .no-print * { display: none !important; }
